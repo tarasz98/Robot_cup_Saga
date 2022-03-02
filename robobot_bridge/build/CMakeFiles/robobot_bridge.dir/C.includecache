@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/local/robobot_bridge/bcm2835.c
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+string.h
+-
+time.h
+-
+unistd.h
+-
+sys/types.h
+-
+bcm2835.h
+/home/local/robobot_bridge/bcm2835.h
+
+/home/local/robobot_bridge/bcm2835.h
+stdint.h
+-
+
