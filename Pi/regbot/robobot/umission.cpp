@@ -240,7 +240,7 @@ bool UMission::mission1(int & state)
   // run the desired mission
   switch (state)
   {
-    case 0: // first PART 
+    case 0: // first PART
       snprintf(lines[0], MAX_LEN, "vel=0.5:dist=0.6");
       snprintf(lines[1], MAX_LEN, "tr=0.2:turn=90");
       // last line should never end, as robot then think we are finished
